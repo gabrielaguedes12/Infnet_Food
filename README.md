@@ -1,11 +1,35 @@
-# Sample Snack app
+Infnet Food - Aplicativo de Pedidos Mobile (React Native)
+Este projeto é um aplicativo mobile desenvolvido em React Native (Expo), focado em simular um sistema de pedidos de delivery de comida, como parte dos exercícios de desenvolvimento mobile da Infnet.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+🛠️ Tecnologias Utilizadas
+Framework: React Native (utilizando Expo)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Navegação: @react-navigation/native
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Estilização: StyleSheet (React Native Nativo)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Testes: Jest e @testing-library/react-native
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Notificações: expo-notifications (Mockado para simulação)
+
+📁 Estrutura e Arquivos Chave
+A aplicação utiliza uma estrutura modular, com as telas principais na pasta screens.
+
+Estrutura de Arquivos e Componentes:
+A imagem a seguir mostra a estrutura principal do projeto no Expo:
+
+Configuração de Dependências:
+O arquivo package.json contém as dependências necessárias, incluindo as bibliotecas de navegação, testes e notificações:
+
+🚀 Como Rodar o Projeto (Expo)
+Siga os passos abaixo para executar a aplicação:
+
+Pré-requisitos: Certifique-se de ter o Node.js e o Expo CLI instalados globalmente (npm install -g expo-cli).
+
+Clone o Repositório: git clone [URL_DO_SEU_REPOSITORIO]
+
+Instale as Dependências: Navegue até o diretório do projeto e execute: npm install ou yarn install.
+
+Inicie o Servidor Expo: expo start.
+
+Execução: Use o aplicativo Expo Go no seu celular para escanear o QR code exibido no terminal, ou utilize um simulador iOS/Android conectado.
