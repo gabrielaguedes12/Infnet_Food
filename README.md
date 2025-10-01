@@ -26,10 +26,6 @@ Siga os passos abaixo para executar a aplicação:
 
 Pré-requisitos: Certifique-se de ter o Node.js e o Expo CLI instalados globalmente (npm install -g expo-cli).
 
-Clone o Repositório: git clone [URL_DO_SEU_REPOSITORIO]
-
-Instale as Dependências: Navegue até o diretório do projeto e execute: npm install ou yarn install.
-
 Inicie o Servidor Expo: expo start.
 
 Execução: Use o aplicativo Expo Go no seu celular para escanear o QR code exibido no terminal, ou utilize um simulador iOS/Android conectado.
